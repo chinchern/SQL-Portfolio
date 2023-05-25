@@ -1,0 +1,10 @@
+--Dataset: industry_emission
+--Source: Kaggle https://springernature.figshare.com/articles/dataset/The_Carbon_Catalogue_public_database_Carbon_footprints_of_866_commercial_products_across_8_industry_sectors_and_5_continents/16908979
+--Queried using: PostgreSQL
+
+--which industries are the worst offenders?
+SELECT industry_group, COUNT(*) AS count_industry, ROUND(SUM(carbon_footprint_pcf),1) AS total_industry_footprint
+FROM industry_emission
+WHERE year = 2017
+GROUP BY industry_group
+ORDER BY total_industry_footprint DESC;
