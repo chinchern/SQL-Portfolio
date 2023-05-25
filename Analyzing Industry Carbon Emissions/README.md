@@ -10,8 +10,14 @@
 ## Project Motivation
 Product emissions make up more than 75% of global emissions. But which industries are the worst offenders?
 
-## File Description
-
-
 ## Results
+|industry_group                   |count_industry|total_industry_footprint|
+|---------------------------------|--------------|------------------------|
+|Materials                        |11            |107129.0                |
+|Capital Goods                    |4             |94942.7                 |
+|Technology Hardware & Equipment  |22            |21865.1                 |
+|Food, Beverage & Tobacco         |22            |3161.5                  |
+|Commerial & Professional Services|2             |740.6                   |
+|Software & Services              |1             |690.0                   |
+
 
