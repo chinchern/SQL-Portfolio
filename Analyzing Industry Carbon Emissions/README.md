@@ -4,11 +4,14 @@
 
 ## Table of Contents
 - [Project Motivation](#Project-Motivation)
-- [File Description](#File-Description)
+- [Tool](#Tool)
 - [Results](#Results)
 
 ## Project Motivation
 Product emissions make up more than 75% of global emissions. But which industries are the worst offenders?
+
+## Tool
+PostgreSQL
 
 ## Results
 |industry_group                   |count_industry|total_industry_footprint|
